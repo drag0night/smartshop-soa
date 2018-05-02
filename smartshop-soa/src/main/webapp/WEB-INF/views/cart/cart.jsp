@@ -35,7 +35,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <span><a href="/BoEC-Shop/">Trang chủ</a></span>
+                                <span><a href="/smartshop-soa/">Trang chủ</a></span>
                                 <span>Giỏ hàng</span>
                             </div>
                         </div>

@@ -15,7 +15,7 @@
                     <div class="topbar-right">
                         <ul class="topbar-nav clearfix">
                             <li data-toggle="modal" data-target="#myModal"><a href="#" class="login">Đăng nhập</a></li>
-                            <li><a href="/BoEC-Shop/registration" class="registration">Đăng ký</a></li>
+                            <li><a href="/smartshop-soa/registration" class="registration">Đăng ký</a></li>
                         </ul>
                     </div>
                 </c:when>
@@ -23,7 +23,7 @@
                     <div class="topbar-right">
                         <ul class="topbar-nav clearfix">
                             <li><a href="#" class="login">Xin chào, ${fullname}</a></li>
-                            <li><a href="/BoEC-Shop/logout" class="registration">Đăng xuất</a></li>
+                            <li><a href="/smartshop-soa/logout" class="registration">Đăng xuất</a></li>
                         </ul>
                     </div>
                 </c:when>
@@ -32,7 +32,7 @@
             <div class="modal fade" id="myModal" role="dialog">
                 <div class="modal-dialog">
                     <!-- Modal content-->
-                    <form id="checkLogin" method="POST" action="/BoEC-Shop/checkLogin" autocomplete="off">
+                    <form id="checkLogin" method="POST" action="/smartshop-soa/checkLogin" autocomplete="off">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -71,7 +71,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="logo">
-                        <a href="/BoEC-Shop/" class="logo-img"><img src="images/logo.png" alt=""></a>
+                        <a href="/smartshop-soa/" class="logo-img"><img src="images/logo.png" alt=""></a>
                         <span class="logo-text">mart Shop</span>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                     <c:if test="${user!=null}">
                         <div class="cart">
                             <div class="cart-title">
-                                <a href="/BoEC-Shop/cart" class="cart-text">Giỏ hàng</a>
+                                <a href="/smartshop-soa/cart" class="cart-text">Giỏ hàng</a>
                                 <c:if test="${cart!=null}">
                                     <span class="amount-cart">(${cart.getTotalAmount()})</span>
                                 </c:if>
@@ -343,7 +343,7 @@
 
                 <div class="col-md-9">
                     <ul class="menu clearfix">
-                        <li><a href="/BoEC-Shop/">Trang chủ</a></li>
+                        <li><a href="/smartshop-soa/">Trang chủ</a></li>
                         <li><a href="listproduct">Sản phẩm</a></li>
                         <li><a href="#">Khuyến mại</a></li>
                         <li><a href="#">Trả góp</a></li>

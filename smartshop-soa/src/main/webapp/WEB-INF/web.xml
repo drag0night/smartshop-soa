@@ -7,7 +7,7 @@
     <display-name>Spring3 MVC Application</display-name>
     
     <servlet>
-        <servlet-name>BoEC-Shop</servlet-name>
+        <servlet-name>smartshop-soa</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
@@ -17,7 +17,7 @@
     </servlet>
     
     <servlet-mapping>
-        <servlet-name>BoEC-Shop</servlet-name>
+        <servlet-name>smartshop-soa</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 

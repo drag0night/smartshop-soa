@@ -36,7 +36,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <span><a href="home">Trang chủ</a></span>
+                                <span><a href="/smartshop-soa/">Trang chủ</a></span>
                                 <span>Chi tiết sản phẩm</span>
                             </div>
                         </div>

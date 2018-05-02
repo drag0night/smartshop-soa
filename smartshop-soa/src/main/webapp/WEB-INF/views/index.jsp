@@ -73,13 +73,13 @@
                                     <c:forEach items="${listEndow}" var="endow">
                                         <div class="offer-item item">
                                             <div class="image-container">
-                                                <a href="#" class="product-image">
+                                                <a href="productdetail?id=${endow.id}" class="product-image">
                                                     <img src="${endow.image}">
                                                 </a>
                                                 <div class="countbox_1 timer-grid"></div>
                                             </div>
                                             <div class="content-container">
-                                                <h2 class="product-name"><a href="">${endow.name}</a></h2>
+                                                <h2 class="product-name"><a href="productdetail?id=${endow.id}">${endow.name}</a></h2>
                                                 <div class="price-container">
                                                     <div class="new-price">
                                                         <div class="price"><fmt:formatNumber type="number" value="${endow.price}"/></div>

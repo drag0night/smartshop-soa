@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.quangvn</groupId>
-    <artifactId>BoEC-Shop</artifactId>
+    <artifactId>smartshop-soa</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
 
-    <name>BoEC-Shop</name>
+    <name>smartshop-soa</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
