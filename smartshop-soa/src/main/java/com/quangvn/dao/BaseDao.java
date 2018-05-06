@@ -22,8 +22,8 @@ public class BaseDao {
         String classname = "com.mysql.jdbc.Driver";
         String url = "jdbc:mysql://localhost:3306/boecshop?useSSL=true";
         String user = "root";
-        String pass = "vanhy";
- //       String pass = "b14dccn021";
+//        String pass = "vanhy";
+        String pass = "b14dccn021";
         Connection con = null;
         try {
             Class.forName(classname);

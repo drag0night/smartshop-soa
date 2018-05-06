@@ -54,6 +54,8 @@
                                         </span>
                                     </div>
                                 </div>
+                                <div class="g-recaptcha"
+                                     data-sitekey="6Le2xlYUAAAAAMvKnCvhdAdUWHzhTJyh9MvApXnr"></div>
                             </div>
                             <div class="modal-footer">
                                 <span><input type="submit" id="login" class="btn btn-default1" data-bind="modal" value="Đăng nhập"></span>
